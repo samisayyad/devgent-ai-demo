@@ -21,6 +21,8 @@ import { v4 as uuidv4 } from "uuid";
 import { useUser } from "@clerk/nextjs";
 import moment from "moment";
 import { useRouter } from "next/navigation";
+import Link from 'next/link';
+import { Video, Mic } from 'lucide-react';
 
 const AddNewInterview = () => {
   const [openDailog, setOpenDialog] = useState(false);

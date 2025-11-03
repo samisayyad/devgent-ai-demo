@@ -8,6 +8,7 @@ import Contect from "./_components/Contect";
 import useEmblaCarousel from "embla-carousel-react";
 import { FaGithub } from "react-icons/fa";
 
+
 const slides = [
   {
     title: "Master Interviews with Real-time AI Coaching",
@@ -170,8 +171,8 @@ export default function LandingPage() {
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">What Our Users Say</h2>
           <div className="flex flex-wrap justify-center mt-8 gap-6">
-            <Testimonial text='"The AI mock interviews were incredibly helpful. I felt much more confident going into my real interview."' name="- Alex Johnson" />
-            <Testimonial text='"The feedback was spot on and helped me improve my answers. Highly recommend this service!"' name="- Sarah Williams" />
+            <Testimonial text='"The AI mock interviews were incredibly helpful. I felt much more confident going into my real interview."' name="- Rayan Nadeem" />
+            <Testimonial text='"The feedback was spot on and helped me improve my answers. Highly recommend this service!"' name="- Suhas M Shandilya" />
           </div>
         </div>
       </section>

@@ -2,6 +2,8 @@ import { UserButton } from "@clerk/nextjs";
 import React from "react";
 import AddNewInterview from "./_components/AddNewInterview";
 import InterviewList from "./_components/InterviewList";
+import InterviewHistory from './_components/InterviewHistory';
+
 
 const Dashboard = () => {
   return (
@@ -13,7 +15,12 @@ const Dashboard = () => {
         <AddNewInterview/>
       </div>
 
+      <div className="mb-8">
+    <InterviewHistory />
+
       <InterviewList/>
+    </div>
+    
     </div>
   );
 };
